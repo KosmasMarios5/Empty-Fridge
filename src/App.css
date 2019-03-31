@@ -1,0 +1,24 @@
+.main-search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.main-search .logo{
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.span.MuiButtonBase-root-67.MuiIconButton-root-61.MuiPrivateSwitchBase-root-410.MuiCheckbox-root-404.MuiCheckbox-colorSecondary-409{
+
+  padding: 12px 0;
+}
+
+body{
+  max-width: 1200px;
+  margin: auto!important;
+}
