@@ -1,2 +1,0 @@
-# Empty-Fridge
-Project Code
