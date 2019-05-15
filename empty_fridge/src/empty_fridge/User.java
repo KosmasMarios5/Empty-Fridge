@@ -24,7 +24,10 @@ public class User {
     
     //methods
     public static boolean isLoggedIn(){
-        //kwdikas elegxou
+        /*kwdikas elegxou. 
+        Alex: Thelw na epistrefei to id tou xrhsth pou einai logarismenos.
+        Poios einai LoggedIn?? True = (>0) False = 0.
+        */
         return true; 
     }
 
