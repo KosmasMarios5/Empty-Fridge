@@ -11,42 +11,65 @@ package empty_fridge;
  */
 public class User {
     //attribute
-    //tha ta balw se lista pio meta
     int id;
-    String[] username = {"nikos", "giannhs", "kwstas"};
-    String[] password = {"test1", "test2", "test3"};
-    String[] email = {"test1@gmail.com", "test2@gmail.com", "test3@gmail.com"};
-    String[] userData = {"something1", "something2", "something3"};
-    String[] role;
+    String username;
+    String password;
+    String email;
+    String userData;
+    String role;
+    String history;
+    String shoppingList;
+    String favorites;
     boolean accessNotification;
-    int[] cookLevel = {1,2,3,4,5};
+    int cookLevel;
     
     
     //methods
-    public static boolean isLoggedIn(){
-        /*kwdikas elegxou. 
-        Alex: Thelw na epistrefei to id tou xrhsth pou einai logarismenos.
-        Poios einai LoggedIn?? True = (>0) False = 0.
-        */
+    public boolean isLoggedIn(){
+        //kwdikas elegxou
         return true; 
     }
 
-    public void setUserData(String newUserData){
-        this.userData[id] = newUserData;
+    public void setUserData(String userData){
+        this.userData = userData;
     }
     
-    public void validateLogin(String testUsername, String testPassword){
-        int i;
-        for( i=0; i<10; i++){
-            if ( testUsername.equals(username[i]) && testPassword.equals(password[i]) ){
-                id = i;
-            }
-        }
+    public void validateLogin(String username, String password){
     }
     
     public String getRole(){
-        return role[id];
+        return role;
     }
     
+    public void save(){
+        
+    }
     
+    public void sendVerificationEmail(){
+        
+    }
+    
+    public void setNotification(){
+        
+    }
+    
+    public void setRole(String role){
+        this.role= role;
+    }
+    
+    public void validate(){
+        
+    }
+    
+    public void checkUserData(){
+        
+    }
+    
+    public void checkRole(){
+        
+    }
+    
+    public void checkNotification(){
+        
+    }
 }
