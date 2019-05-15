@@ -3,15 +3,73 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empty_fridge.Entities;
+package empty_fridge;
 
 /**
  *
- * @author kosma
+ * @author petros
  */
 public class User {
+    //attribute
     int id;
-    String name;
+    String username;
+    String password;
     String email;
-    String[] roles;
+    String userData;
+    String role;
+    String history;
+    String shoppingList;
+    String favorites;
+    boolean accessNotification;
+    int cookLevel;
+    
+    
+    //methods
+    public boolean isLoggedIn(){
+        //kwdikas elegxou
+        return true; 
+    }
+
+    public void setUserData(String userData){
+        this.userData = userData;
+    }
+    
+    public void validateLogin(String username, String password){
+    }
+    
+    public String getRole(){
+        return role;
+    }
+    
+    public void save(){
+        
+    }
+    
+    public void sendVerificationEmail(){
+        
+    }
+    
+    public void setNotification(){
+        
+    }
+    
+    public void setRole(String role){
+        this.role= role;
+    }
+    
+    public void validate(){
+        
+    }
+    
+    public void checkUserData(){
+        
+    }
+    
+    public void checkRole(){
+        
+    }
+    
+    public void checkNotification(){
+        
+    }
 }
