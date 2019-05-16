@@ -18,7 +18,7 @@ public class User {
     String userData;
     String role;
     String history;
-    String shoppingList;
+    ShoppingList[] shoppingList;
     String favorites;
     boolean accessNotification;
     int cookLevel;
