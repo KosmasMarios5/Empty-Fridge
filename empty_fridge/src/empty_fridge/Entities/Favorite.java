@@ -16,8 +16,8 @@ public class Favorite {
     
 // prosthesa kai ta parakatw ta opoia pisteuw oti xreiazontai
     String favorite;
-    Recipe[] recipe;
-    Ingredient[] ingredients;    
+    Recipe recipe;
+    Ingredient ingredients;    
     
     public void setFavorite(String favorite){
         this.favorite = favorite;
