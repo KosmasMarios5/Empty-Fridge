@@ -4,25 +4,23 @@
  * and open the template in the editor.
  */
 package empty_fridge.Entities;
-import empty_fridge.Entities.User;
-import empty_fridge.Entities.Ingredient;
-//import empty_fridge.Entities.Filter;
-/**
- *
+/*
  * @author Alexandros
  */
 public class Session {
     int id;
     int userid;
+    Ingredient ingredients;
+    Filter filters;
     
     public Session(){
     }
-    public void save(int filters){
+    public void save(Filter filters){
         /* Save Filters (Allagh Sequence Filters)
         *  me eisodo filters
         */
     }
-    public void save(String ingredients){
+    public void save(Ingredient ingredients){
         /* Save Ingredients Allagh Sequence Filters)
         *  me eisodo ingredients
         */
