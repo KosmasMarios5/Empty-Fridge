@@ -4,13 +4,16 @@
  * and open the template in the editor.
  */
 package empty_fridge.Entities;
-//import empty_fridge.Entities.Page;
 
+import empty_fridge.Entities.Ingredient;
+import empty_fridge.Entities.Recipe;
+import empty_fridge.Entities.Filter;
+import empty_fridge.Entities.User;
 /**
  *
  * @author Alexandros
  */
-public class SearchPage {
+public class SearchPage { //extends Page
     //IngredientSelectMenu menu; 
     User user;
     Ingredient[] ingredients;
