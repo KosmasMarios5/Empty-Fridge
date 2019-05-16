@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package empty_fridge.Entities;
+
+import empty_fridge.Entities.Ingredient;
+import empty_fridge.Entities.Recipe;
 
 /**
  *
