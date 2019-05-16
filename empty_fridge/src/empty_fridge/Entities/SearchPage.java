@@ -11,7 +11,7 @@ package empty_fridge.Entities;
  * @author Alexandros
  */
 public class SearchPage {
-    //IngredientSelectMenu menu;
+    //IngredientSelectMenu menu; 
     User user;
     Ingredient ingredients;
     Filter filters;

@@ -26,7 +26,7 @@ public class User {
     
     //methods
     public boolean isLoggedIn(){
-        //kwdikas elegxou
+        //kwdikas elegxou 
         return true; 
     }
 
