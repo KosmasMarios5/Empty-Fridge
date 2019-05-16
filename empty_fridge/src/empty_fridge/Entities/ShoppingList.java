@@ -14,8 +14,8 @@ import empty_fridge.Entities.Recipe;
  * @author petros
  */
 public class ShoppingList {
-    Recipe[] recipe;// sto shopping List 9a periexei kai suntagh h mono ulika
-    Ingredient[] ingredients;
+    Recipe recipe;// sto shopping List 9a periexei kai suntagh h mono ulika
+    Ingredient ingredients;
     String checkedIngredients;// ti kanei to sugkekrimeno attribute?
     String shoppingList;//pros9esa kai ena attribute shoppinglist giati den uphrxe sto domain model
     /*

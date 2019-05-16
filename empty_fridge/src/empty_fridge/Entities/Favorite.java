@@ -10,7 +10,7 @@ package empty_fridge.Entities;
  * @author petros
  */
 public class Favorite {
-    String author;
+    User author;
     String item;//giati exoume auto to attributes
 
     
