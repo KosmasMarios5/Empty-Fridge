@@ -13,21 +13,25 @@ package empty_fridge.Entities;
 public class SearchPage {
     //IngredientSelectMenu menu; 
     User user;
-    Ingredient ingredients;
-    Filter filters;
+    Ingredient[] ingredients;
+    Filter[] filters;
+    Recipe[] recipes;
     public SearchPage(){
         
     }
     public void startSearch(){
         /*
-        * (Prepei na yparxei kai Selected Previous Search Option?
         main search function
         * getIngredients();
         * getFilters();
         Apo Session
+        if Selected Previous Search Option{
         * isLoggedIn();
         Apo User
-        * call search
+        * this.ingredients = getSavedSession("i");
+        * this.filters = getSavedSession(2); }
+        Apo Session
+        * this.recipes[] = search(ingredients[], filters[]);
         Apo Recipe
         */
     }

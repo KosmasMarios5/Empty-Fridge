@@ -1,6 +1,10 @@
 
 package empty_fridge.Entities;
 
+/**
+ *
+ * @author kosma
+ */
 import empty_fridge.Entities.CookingTool;
 import empty_fridge.Entities.Ingredient;
 

@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package empty_fridge.Entities;
-
 import empty_fridge.Entities.Recipe;
 /**
  *
@@ -12,9 +11,9 @@ import empty_fridge.Entities.Recipe;
  */
 public class Web {
     
-   Recipe[] recipes;
+   Recipe[] webRecipes;
 
-    public void search(String ingredients){
+    public Recipe[] search(Ingredient ingredients, Filter filters){
         /* I need to return a list of recipes here  
          * Can the method type returned be an array of "Recipe"? 
          * Use void?  
@@ -28,9 +27,8 @@ public class Web {
                 /* error recipe not found */
                 done = 1;
             }
-        //return webRecipes;
-        }
-        
+        return webRecipes;
         /* Omoia me tin search ths Recipe. Epistrefei "recipes"
         */
+        }  
 }

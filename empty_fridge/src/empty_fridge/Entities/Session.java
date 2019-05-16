@@ -10,24 +10,48 @@ package empty_fridge.Entities;
 public class Session {
     int id;
     int userid;
-    Ingredient ingredients;
-    Filter filters;
-    
+    Ingredient[] ingredients;
+    Filter[] filters;
+    Ingredient[] OldIngredients;
+    Filter[] OldFilters;
+            
     public Session(){
+        
     }
-    public void save(Filter filters){
+    
+    public void save(Filter Sfilters){
         /* Save Filters (Allagh Sequence Filters) 
         *  me eisodo filters
         */
+        this.filters[0] = Sfilters;
     }
-    public void save(Ingredient ingredients){
+    
+    public void save(Ingredient Singredients){
         /* Save Ingredients Allagh Sequence Filters)
         *  me eisodo ingredients
         */
+        this.ingredients[0] = Singredients;
     }
-    public void getSavedSession(int id){
-        /* Me to user id epistrefei ta apothikeumena ingredients & filters
+    
+    public Ingredient[] getSavedSession(String ylika){
+        /* Me to user id epistrefei ta apothikeumena ingredients
         *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
         */
+        return this.OldIngredients;
+    }
+    
+    public Filter[] getSavedSession(int filtra){
+        /* Me to user id epistrefei ta apothikeumena filters
+        *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
+        */
+        return this.OldFilters;
+    }
+    
+    public Ingredient[] getIngredients(){
+        return this.ingredients;
+    }
+    
+    public Filter[] getFilters(){
+        return this.filters;
     }
 }
