@@ -20,8 +20,8 @@ public class User {
     String userData;
     String role;
     String history;
-    ShoppingList[] shoppingList;
-    Favorite[] favorites;
+    ShoppingList shoppingList;
+    Favorite favorites;
     boolean accessNotification;
     int cookLevel;
     
