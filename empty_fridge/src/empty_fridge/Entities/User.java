@@ -5,6 +5,8 @@
  */
 package empty_fridge.Entities;
 
+import empty_fridge.Entities.ShoppingList;
+import empty_fridge.Entities.Favorite;
 /**
  *
  * @author petros
@@ -19,14 +21,14 @@ public class User {
     String role;
     String history;
     ShoppingList[] shoppingList;
-    String favorites;
+    Favorite[] favorites;
     boolean accessNotification;
     int cookLevel;
     
     
     //methods
     public boolean isLoggedIn(){
-        //kwdikas elegxou 
+        //kwdikas elegxou
         return true; 
     }
 
