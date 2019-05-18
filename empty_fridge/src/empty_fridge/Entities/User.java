@@ -74,4 +74,7 @@ public class User {
     public void checkNotification(){
         
     }
+    public void saveSession(Ingredient[] ingr, Filter[] filt, User usr, int iduser){
+        //Σώζει τις επιλογές της τελευταίας αναζήτησης που έκανε ο χρήστης.
+    }
 }

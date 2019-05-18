@@ -9,6 +9,7 @@ import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Recipe;
 import empty_fridge.Entities.Filter;
 import empty_fridge.Entities.User;
+import empty_fridge.Entities.Favorite;
 /**
  *
  * @author Alexandros
@@ -19,6 +20,7 @@ public class SearchPage { //extends Page
     Ingredient[] ingredients;
     Filter[] filters;
     Recipe[] recipes;
+    Favorite favorites;
     public SearchPage(){
         
     }
@@ -42,6 +44,19 @@ public class SearchPage { //extends Page
         
     }
     public void selectIngredients(){
+        //Δεν θα έπρεπε να είναι εδώ αυτό. Στην IngredientSelectMenu ισως?
+    }
+    public void display(){
+        //Θα κάνει display των sorted recipes (search results)
         
     }
+    public void viewFilteringOptions(){
+    
+    }
+    
+    public void chooseIngredient(){}
+    
+    public void viewSortingOptions(){}
+    
+    public void refresh(){}
 }
