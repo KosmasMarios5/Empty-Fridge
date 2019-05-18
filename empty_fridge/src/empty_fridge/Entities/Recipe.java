@@ -16,9 +16,10 @@ public class Recipe {
     String[] categories;
     User author;
     String description;
-    Image image;
+    Image[] image; // Πάνω από 1 εικόνα
     int rating;
     String instructions;
+    String[] tools;
     
     public Recipe (){
     }
@@ -34,4 +35,20 @@ public class Recipe {
     public void setTitle(String title){
         this.title = title;
     }
+    public int getRecipe(int rid){
+        return this.id;
+    }
+    
+    public String getInstructions(int rid){
+        return instructions;
+    }
+    
+    public Ingredient[] getIngredients(int rid){
+        return ingredients;
+    }
+    
+    public String[] getTools(int rid){
+        return tools;
+    }
+    
 }

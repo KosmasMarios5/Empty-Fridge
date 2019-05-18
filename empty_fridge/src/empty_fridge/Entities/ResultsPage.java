@@ -16,6 +16,8 @@ public class ResultsPage { //extends Page
         
     }
     public void display(){
-        
+    }
+    public void selectRecipe(int recipeId){
+        //Ο χρήστης επιλέγει μια από της συνταγές για να ανοιξει την RecipePage
     }
 }
