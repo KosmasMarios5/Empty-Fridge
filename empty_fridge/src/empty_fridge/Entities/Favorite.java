@@ -11,20 +11,11 @@ package empty_fridge.Entities;
  */
 public class Favorite {
     User author;
-    String item;//giati exoume auto to attributes
-
+    Favorite item;
+    Recipe[] recipe;
+    Ingredient[] ingredients;    
     
-// prosthesa kai ta parakatw ta opoia pisteuw oti xreiazontai
-    String favorite;
-    Recipe recipe;
-    Ingredient ingredients;    
-    
-    public void setFavorite(String favorite){
-        this.favorite = favorite;
-    }
-    
-    public String getFavoriteRecipe(){
-        return favorite;
-    }
-   
+    public void setFavorite(Favorite item){
+        this.item = item;
+    } 
 }
