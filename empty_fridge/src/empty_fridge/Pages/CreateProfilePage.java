@@ -15,9 +15,7 @@ public class CreateProfilePage extends Page {
     
     
     public void addUser(User username, User password, User email){
-//        this.user[1] = username;
-//        this.user[2] = password;
-//        this.user[3] = email;
+        
     }
     public void error(){
         
