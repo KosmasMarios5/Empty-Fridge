@@ -47,8 +47,7 @@ public class Recipe extends Entity{
         return null;
     }
     
-    public String[] getTools(int rid){
-        return null;
+    public void getTools(int rid){
     }
     
 }
