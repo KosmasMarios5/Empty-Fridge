@@ -16,6 +16,4 @@ public class RecipeCategory extends VocabularyTerm {
     
     private String mealType;
     
-    // den 3erw ti na valw edw mesa peran tou mealType
-    
 }

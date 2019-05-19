@@ -7,18 +7,18 @@ package empty_fridge.Entities;
  */
 import empty_fridge.Entities.CookingTool;
 import empty_fridge.Entities.Ingredient;
+import java.util.ArrayList;
 
 public class Recipe extends Entity{
     String title;
-    Ingredient[] ingredients;
-    CookingTool[] cookingTools;
+    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+    ArrayList<CookingTool> cookingTools = new ArrayList<CookingTool>();
+    ArrayList<Image> images = new ArrayList<Image>();
     String[] categories;
     User author;
     String description;
-    Image[] image; // Πάνω από 1 εικόνα
     int rating;
     String instructions;
-    String[] tools;
     
     public Recipe (){
     }

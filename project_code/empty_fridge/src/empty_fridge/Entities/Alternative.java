@@ -6,7 +6,7 @@
 package empty_fridge.Entities;
 
 import empty_fridge.Entities.Ingredient;
-import empty_fridge.Entities.IngredientSelectMenu;
+import java.util.ArrayList;
 
 /**
  *
@@ -14,12 +14,10 @@ import empty_fridge.Entities.IngredientSelectMenu;
  */
 public class Alternative {
     
-    Ingredient[] ingredients;
+    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
     
-    
-    public Ingredient[] similarIngredients(String word){
-        
-       return ingredients; 
+    public ArrayList<Ingredient> similarIngredients(String word){
+        return ingredients; 
     }
     
 }

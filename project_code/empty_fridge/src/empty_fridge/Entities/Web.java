@@ -5,15 +5,16 @@
  */
 package empty_fridge.Entities;
 import empty_fridge.Entities.Recipe;
+import java.util.ArrayList;
 /**
  *
  * @author Alexandros
  */
 public class Web {
     
-   Recipe[] webRecipes;
+   ArrayList<Recipe> webRecipes = new ArrayList<Recipe>();
 
-    public Recipe[] search(Ingredient ingredients, Filter filters){
+    public ArrayList<Recipe> search(Ingredient ingredients, Filter filters){
         /* I need to return a list of recipes here  
          * Can the method type returned be an array of "Recipe"? 
          * Use void?  

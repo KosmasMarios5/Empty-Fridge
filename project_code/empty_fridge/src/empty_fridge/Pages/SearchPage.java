@@ -21,12 +21,12 @@ import empty_fridge.Entities.User;
  */
 public class SearchPage extends Page{
     
-    Ingredient[] ingredients;
-    Filter[] filters;
-    Recipe[] recipes;
-    Recipe[] sortedRecipes;
-    Favorite favorites;
-    
+//    Ingredient[] ingredients;
+//    Filter[] filters;
+//    Recipe[] recipes;
+//    Recipe[] sortedRecipes;
+//    Favorite favorites;
+//    
     public void startSearch(){
         /*
         main search function

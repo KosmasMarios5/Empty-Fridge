@@ -9,7 +9,7 @@ package empty_fridge.Entities;
  *
  * @author kosma
  */
-public class Image {
+public class Image extends Entity{
     int id;
     String url;
     String fileName;

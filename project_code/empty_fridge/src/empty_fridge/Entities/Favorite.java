@@ -5,6 +5,8 @@
  */
 package empty_fridge.Entities;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author petros
@@ -12,8 +14,8 @@ package empty_fridge.Entities;
 public class Favorite {
     User author;
     Favorite item;
-    Recipe[] recipe;
-    Ingredient[] ingredients;    
+    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+    ArrayList<Recipe> recipes = new ArrayList<Recipe>();
     
     public void setFavorite(Favorite item){
         this.item = item;

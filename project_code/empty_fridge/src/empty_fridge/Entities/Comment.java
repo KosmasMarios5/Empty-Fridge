@@ -9,8 +9,7 @@ package empty_fridge.Entities;
  *
  * @author kosma
  */
-public class Comment {
-    int id;
+public class Comment extends Entity{
     String text;
     Image image;
     Recipe recipe;

@@ -12,4 +12,5 @@ package empty_fridge.Entities;
 public class Ingredient extends VocabularyTerm {
     int quantity;
     String[] categories;
+    
 }

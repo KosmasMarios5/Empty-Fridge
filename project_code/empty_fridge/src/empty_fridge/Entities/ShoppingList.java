@@ -8,6 +8,7 @@ package empty_fridge.Entities;
 
 import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Recipe;
+import java.util.ArrayList;
 
 /**
  *
@@ -15,7 +16,7 @@ import empty_fridge.Entities.Recipe;
  */
 public class ShoppingList {
     Recipe recipe = new Recipe();
-    Ingredient ingredients = new Ingredient();
+    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
     boolean checkedIngredients;
     String shoppingList;
     public void addRecipeToShoppingList(Recipe recipe){
@@ -23,7 +24,7 @@ public class ShoppingList {
     }
     
     public void addIngredient(Ingredient ingredients){ 
-        this.ingredients.title = shoppingList;      
+        
     }
     
     public boolean allChecked(){
@@ -34,6 +35,7 @@ public class ShoppingList {
     }
     
     public String getShoppingList(){
-        return shoppingList;
+        
+        
     }
 }

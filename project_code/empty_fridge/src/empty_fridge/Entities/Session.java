@@ -6,17 +6,19 @@
 package empty_fridge.Entities;
 import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Filter;
+import java.util.ArrayList;
 /*
  * @author Alexandros
  */
 public class Session {
-    int id;
+    
     int userid;
-    Ingredient[] ingredients;
-    Filter[] filters;
-    Ingredient[] OldIngredients;
-    Filter[] OldFilters;
-            
+    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+    ArrayList<Filter> filters = new ArrayList<Filter>();
+    
+    ArrayList<Ingredient> oldIngredients = new ArrayList<Ingredient>();
+    ArrayList<Filter> oldFilters = new ArrayList<Filter>();
+    
     public Session(){
         
     }
@@ -25,35 +27,35 @@ public class Session {
         /* Save Filters (Allagh Sequence Filters) 
         *  me eisodo filters
         */
-        this.filters[0] = Sfilters;
+        
     }
     
     public void save(Ingredient Singredients){
         /* Save Ingredients Allagh Sequence Filters)
         *  me eisodo ingredients
         */
-        this.ingredients[0] = Singredients;
+        
     }
     
-    public Ingredient[] getSavedSession(String ylika){
+    public ArrayList<Ingredient> getSavedSession(String ylika){
         /* Me to user id epistrefei ta apothikeumena ingredients
         *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
         */
-        return this.OldIngredients;
+        return null;
     }
     
-    public Filter[] getSavedSession(int filtra){
+    public ArrayList<Filter> getSavedSession(int filtra){
         /* Me to user id epistrefei ta apothikeumena filters
         *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
         */
-        return this.OldFilters;
+        return null;
     }
     
-    public Ingredient[] getIngredients(){
-        return this.ingredients;
+    public ArrayList<Ingredient> getIngredients(){
+        return null;
     }
     
-    public Filter[] getFilters(){
-        return this.filters;
+    public ArrayList<Filter> getFilters(){
+        return null;
     }
 }

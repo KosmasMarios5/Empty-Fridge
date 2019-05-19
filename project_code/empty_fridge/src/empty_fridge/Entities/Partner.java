@@ -6,6 +6,7 @@
 package empty_fridge.Entities;
 
 import empty_fridge.Entities.CookingTool;
+import java.util.ArrayList;
 
 /**
  *
@@ -14,9 +15,5 @@ import empty_fridge.Entities.CookingTool;
 public class Partner { 
     String partnerName; // Fantazomai oti einai to brand sthn CookingTool 
     int partnerId;
-    private CookingTool[] cookingTools;
-    
-    
-    
-    
+    ArrayList<CookingTool> cookingTools = new ArrayList<CookingTool>();
 }
