@@ -19,9 +19,9 @@ public abstract class TestEntityRepositoryBase<TEntity extends Entity> implement
     protected ArrayList<TEntity> entities = new ArrayList<TEntity>();
 
     public TEntity load(int id) {
-        for (TEntity recipe : this.entities) {
-            if(recipe.getId() == id)
-                return recipe;
+        for (TEntity entity : this.entities) {
+            if(entity.getId() == id)
+                return entity;
                 }
         return null;           
     }
