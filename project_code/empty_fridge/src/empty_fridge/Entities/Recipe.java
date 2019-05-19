@@ -44,11 +44,11 @@ public class Recipe extends Entity{
     }
     
     public Ingredient[] getIngredients(int rid){
-        return this.ingredients;
+        return null;
     }
     
     public String[] getTools(int rid){
-        return this.tools;
+        return null;
     }
     
 }

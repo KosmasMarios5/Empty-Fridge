@@ -34,7 +34,7 @@ public class ShoppingList {
     public void deleteAll(){
     }
     
-    public String getShoppingList(){
+    public void getShoppingList(){
         
         
     }
