@@ -14,16 +14,16 @@ import empty_fridge.Entities.Recipe;
  * @author petros
  */
 public class ShoppingList {
-    Recipe[] recipe;
-    Ingredient[] ingredients;
+    Recipe recipe = new Recipe();
+    Ingredient ingredients = new Ingredient();
     boolean checkedIngredients;
     String shoppingList;
-
-    public void addRecipeToShoppingList(Recipe[] recipe){
+    public void addRecipeToShoppingList(Recipe recipe){
+        this.recipe.title = shoppingList;        // ειτε μπορουμε να το δηλώσουμε το id       
     }
     
-    public void addIngredient(Ingredient[] ingredients){ 
-        
+    public void addIngredient(Ingredient ingredients){ 
+        this.ingredients.title = shoppingList;      
     }
     
     public boolean allChecked(){
@@ -31,7 +31,6 @@ public class ShoppingList {
     }
 
     public void deleteAll(){
-        
     }
     
     public String getShoppingList(){
