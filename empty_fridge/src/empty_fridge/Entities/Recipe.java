@@ -40,15 +40,15 @@ public class Recipe extends Entity{
     }
     
     public String getInstructions(int rid){
-        return instructions;
+        return this.instructions;
     }
     
     public Ingredient[] getIngredients(int rid){
-        return ingredients;
+        return this.ingredients;
     }
     
     public String[] getTools(int rid){
-        return tools;
+        return this.tools;
     }
     
 }
