@@ -9,6 +9,6 @@ package empty_fridge.Menus;
  *
  * @author Kostis
  */
-public class MainMenuUI {
+public class MainMenuUI extends Menu{
     
 }

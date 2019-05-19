@@ -46,13 +46,7 @@ public class SearchPage extends Page{
     public void applySorting(){
         
     }
-    /* public void selectIngredients(){
-        //Δεν θα έπρεπε να είναι εδώ αυτό. Στην IngredientSelectMenu ισως?
-    } */
-    public void display(){
-        //Θα κάνει display των sorted recipes (search results)
-        
-    }
+
     public void viewFilteringOptions(){
     
     }

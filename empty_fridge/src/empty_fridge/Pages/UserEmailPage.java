@@ -9,7 +9,7 @@ package empty_fridge.Pages;
  *
  * @author petros
  */
-public class UserEmailPage {
+public class UserEmailPage extends Page{
     
     
     public void acceptConfirmationForm(){
