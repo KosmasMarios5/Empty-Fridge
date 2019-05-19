@@ -10,7 +10,6 @@ package empty_fridge.Pages;
  * @author Alexandros
  */
 public class RecipePage extends Page{ 
-    public RecipePage(){}
     
     public void selectInstructions(){
     }

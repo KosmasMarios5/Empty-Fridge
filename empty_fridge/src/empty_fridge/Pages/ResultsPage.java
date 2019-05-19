@@ -11,8 +11,8 @@ import empty_fridge.Entities.User;
  *
  * @author Alexandros
  */
-public class ResultsPage extends Page{ //extends Page
-    User user;
+public class ResultsPage extends Page{
+    
     public ResultsPage(){
         
     }

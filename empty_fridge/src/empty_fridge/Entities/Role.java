@@ -3,17 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empty_fridge.Pages;
+package empty_fridge.Entities;
 
-/**
- *
- * @author petros
- */
-public class UserEmailPage {
-    
-    
-    public void acceptConfirmationForm(){
-        
-    }
-
+public enum Role {
+    Anonymous,
+    Authenticated,
+    Admin
 }

@@ -21,7 +21,6 @@ import empty_fridge.Entities.User;
  */
 public class SearchPage extends Page{
     
-    User user;
     Ingredient[] ingredients;
     Filter[] filters;
     Recipe[] recipes;

@@ -11,13 +11,12 @@ import empty_fridge.Entities.User;
  *
  * @author petros
  */
-public class UserDataPage {
-    User[] user;
-    Page page;
+public class UserDataPage extends Page{
+    
     public void addUserData(){
         
     }
     public User getUserData(){
-        return user[4];
+        return null;
     }
 }

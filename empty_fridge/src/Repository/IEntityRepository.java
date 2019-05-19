@@ -5,12 +5,15 @@
  */
 package Repository;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author kosma
  */
 public interface IEntityRepository<TEntity> {
     TEntity load(int id);
+    ArrayList<TEntity> loadMultiple();
     TEntity create(TEntity entity);
     TEntity update(TEntity entity);
     boolean delete(TEntity entity);

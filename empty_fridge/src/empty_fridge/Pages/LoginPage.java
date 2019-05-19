@@ -11,8 +11,8 @@ import empty_fridge.Entities.User;
  *
  * @author petros
  */
-public class LoginPage {
-    User[] user;
+public class LoginPage extends Page {
+    
     public void validateLogin(String username, String password){   
     }
 }

@@ -10,12 +10,10 @@ import empty_fridge.Entities.*;
  *
  * @author petros
  */
-public class RolePage {
-    User[] user;
-    Page page;
-    
+public class RolePage extends Page{
+
     public User getRole(){
-        return user[0];
+        return null;
     }
     
     public void role(){

@@ -26,6 +26,10 @@ public abstract class TestEntityRepositoryBase<TEntity extends Entity> implement
         return null;           
     }
     
+    public ArrayList<TEntity> loadMultiple(){
+        return this.entities;
+    }
+    
     public TEntity create(TEntity entity) {
         this.entities.add(entity);
         return entity;
