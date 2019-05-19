@@ -6,6 +6,7 @@
 package empty_fridge.Menus;
 
 import empty_fridge.Entities.*;
+import empty_fridge.Pages.*;
 /**
  *
  * @author Kostis

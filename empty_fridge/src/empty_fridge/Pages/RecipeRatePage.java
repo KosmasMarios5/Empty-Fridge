@@ -5,22 +5,18 @@
  */
 package empty_fridge.Pages;
 
-import empty_fridge.Entities.Comment;
-import empty_fridge.Entities.Image;
+import empty_fridge.Entities.*;
+
 
 /**
  *
  * @author Kostis
  */
 public class RecipeRatePage extends Page {
-   private boolean rate;
+
    int rating;
    
   
-   public void ratingCheck(boolean rate){
-   
-   
-   }
    
    public void createComment(Comment comment){
    

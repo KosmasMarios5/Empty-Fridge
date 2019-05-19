@@ -5,10 +5,21 @@
  */
 package empty_fridge.Entities;
 
+import empty_fridge.Entities.Ingredient;
+import empty_fridge.Entities.IngredientSelectMenu;
+
 /**
  *
  * @author Kostis
  */
 public class Alternative {
+    
+    Ingredient[] ingredients;
+    
+    
+    public Ingredient[] similarIngredients(String word){
+        
+       return ingredients; 
+    }
     
 }

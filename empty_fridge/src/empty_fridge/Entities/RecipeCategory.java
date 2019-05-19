@@ -5,10 +5,17 @@
  */
 package empty_fridge.Entities;
 
+import empty_fridge.Entities.*;
+
+
 /**
  *
  * @author Kostis
  */
-public class RecipeCategory {
+public class RecipeCategory extends VocabularyTerm {
+    
+    private String mealType;
+    
+    // den 3erw ti na valw edw mesa peran tou mealType
     
 }

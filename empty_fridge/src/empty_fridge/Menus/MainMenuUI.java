@@ -5,10 +5,16 @@
  */
 package empty_fridge.Menus;
 
+import empty_fridge.Entities.*;
+import empty_fridge.Pages.*;
 /**
  *
  * @author Kostis
  */
 public class MainMenuUI extends Menu{
+    
+    public void selectOption(){
+        
+    }
     
 }

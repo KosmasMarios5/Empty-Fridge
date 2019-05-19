@@ -5,7 +5,7 @@
  */
 package empty_fridge.Menus;
 
-
+import empty_fridge.Pages.*;
 import empty_fridge.Entities.*;
 /**
  *
