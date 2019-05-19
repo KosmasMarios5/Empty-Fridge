@@ -20,6 +20,7 @@ public class SearchPage { //extends Page
     Ingredient[] ingredients;
     Filter[] filters;
     Recipe[] recipes;
+    Recipe[] sortedRecipes;
     Favorite favorites;
     public SearchPage(){
         
