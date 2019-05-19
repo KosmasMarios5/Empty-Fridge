@@ -34,7 +34,9 @@ public class Program {
         
         ArrayList<User> users = usersRepository.loadMultiple();
         
+        System.out.println("---------------");
         System.out.println("Users");
+        System.out.println("---------------");
         for (User user : users) {
             System.out.println(user.getUserName()+ " " + user.getEmail());
         }

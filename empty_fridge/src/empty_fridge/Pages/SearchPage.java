@@ -25,9 +25,7 @@ public class SearchPage extends Page{
     Filter[] filters;
     Recipe[] recipes;
     Favorite favorites;
-    public SearchPage(){
-        
-    }
+    
     public void startSearch(){
         /*
         main search function

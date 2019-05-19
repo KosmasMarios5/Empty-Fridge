@@ -13,9 +13,6 @@ import empty_fridge.Entities.User;
  */
 public class ResultsPage extends Page{
     
-    public ResultsPage(){
-        
-    }
     public void display(){
     }
     public void selectRecipe(int recipeId){

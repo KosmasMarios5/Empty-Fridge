@@ -23,7 +23,5 @@ public class IngredientSelectMenu extends Menu {
        
        
    }
-   
-   
-   public void selectIngredient()
+  
 }
