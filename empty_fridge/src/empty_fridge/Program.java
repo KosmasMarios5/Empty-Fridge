@@ -5,6 +5,8 @@
  */
 package empty_fridge;
 
+import Repository.IEntityRepository;
+import Repository.Test.TestRecipeRepository;
 import empty_fridge.Entities.Recipe;
 
 /**
@@ -17,10 +19,11 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Recipe recipe1 = new Recipe("hello");
+        IEntityRepository<Recipe> recipesRepository;
+        recipesRepository = new TestRecipeRepository();
         
-        Recipe recipe2 = new Recipe();
-        recipe2.setTitle("world");
+        Recipe recipe1 = recipesRepository.load(0);
+        Recipe recipe2 = recipesRepository.load(1);
         
         System.out.println(recipe1.getTitle() + " " + recipe2.getTitle());
     }

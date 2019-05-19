@@ -8,8 +8,7 @@ package empty_fridge.Entities;
 import empty_fridge.Entities.CookingTool;
 import empty_fridge.Entities.Ingredient;
 
-public class Recipe {
-    int id;
+public class Recipe extends Entity{
     String title;
     Ingredient[] ingredients;
     CookingTool[] cookingTools;
@@ -24,7 +23,8 @@ public class Recipe {
     public Recipe (){
     }
     
-    public Recipe(String title){
+    public Recipe(int id, String title){
+        this.id = id;
         this.title = title;
     }
     
