@@ -3,11 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Program.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/Recipe.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/Web.java</file>
+            <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/Repository/Test/TestEntityRepositoryBase.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/Session.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/RecipePage.java</file>
+            <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/Repository/IEntityRepository.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/SearchPage.java</file>
+            <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/Repository/Test/TestRecipeRepository.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/Filter.java</file>
             <file>file:/E:/Programs/GitHub/Empty-Fridge/Empty-Fridge/empty_fridge/src/empty_fridge/Entities/ResultsPage.java</file>
         </group>
