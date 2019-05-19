@@ -7,7 +7,10 @@ package empty_fridge;
 
 import Repository.IEntityRepository;
 import Repository.Test.TestRecipeRepository;
+import Repository.Test.TestUserRepository;
 import empty_fridge.Entities.Recipe;
+import empty_fridge.Entities.User;
+import java.util.ArrayList;
 
 /**
  *
@@ -26,6 +29,21 @@ public class Program {
         Recipe recipe2 = recipesRepository.load(1);
         
         System.out.println(recipe1.getTitle() + " " + recipe2.getTitle());
+        
+        IEntityRepository<User> usersRepository = new TestUserRepository();
+        
+        ArrayList<User> users = usersRepository.loadMultiple();
+        
+        System.out.println("---------------");
+        System.out.println("Users");
+        System.out.println("---------------");
+        for (User user : users) {
+            System.out.println(user.getUserName()+ " " + user.getEmail());
+        }
+        
     }
-    
-}
+        
+        
+        
+    }
+

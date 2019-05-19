@@ -7,26 +7,32 @@ package empty_fridge.Entities;
 
 import empty_fridge.Entities.ShoppingList;
 import empty_fridge.Entities.Favorite;
+import java.util.ArrayList;
 /**
  *
  * @author petros
  */
-public class User {
-    //attribute
-    int id;
+
+
+public class User extends Entity {
+    
     String username;
     String password;
     String email;
     String userData;
-    String role;
-    String history;
-    ShoppingList[] shoppingList;
-    Favorite[] favorites;
+    Role role;
+    ShoppingList shoppingList;
+    ArrayList<Favorite> favorites = new ArrayList<Favorite>();
     boolean accessNotification;
     int cookLevel;
     
+    public User(int id, String username,String email, Role role){
+        this.id = id;
+        this.username = username;
+        this.email = email;
+        this.role = role;
+    }
     
-    //methods
     public boolean isLoggedIn(){
         //kwdikas elegxou
         return true; 
@@ -39,7 +45,16 @@ public class User {
     public void validateLogin(String username, String password){
     }
     
-    public String getRole(){
+    public String getUserName(){
+        return this.username;
+    }
+    
+       
+    public String getEmail(){
+        return this.email;
+    }
+    
+    public Role getRole(){
         return role;
     }
     
@@ -55,7 +70,7 @@ public class User {
         
     }
     
-    public void setRole(String role){
+    public void setRole(Role role){
         this.role= role;
     }
     

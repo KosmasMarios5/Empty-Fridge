@@ -5,15 +5,13 @@
  */
 package empty_fridge.Pages;
 
-import empty_fridge.Entities.User;
-import empty_fridge.Pages.Page;
 /**
  *
  * @author petros
  */
 public class UserEmailPage {
-    User[] user;
-    Page page;
+    
+    
     public void acceptConfirmationForm(){
         
     }

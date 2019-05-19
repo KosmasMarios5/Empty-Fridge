@@ -11,13 +11,13 @@ import empty_fridge.Entities.User;
  *
  * @author petros
  */
-public class NotificationPage {
-    User[] user;
-    Page page;
+public class NotificationPage extends Page {
+    
     public void notification(){
         
     }
+    
     public User getNotification(){
-        return user[6];
+        return null;
     }
 }
