@@ -10,7 +10,6 @@ package Repository;
  * @author kosma
  */
 public interface IEntityRepository<TEntity> {
-
     TEntity load(int id);
     TEntity create(TEntity entity);
     TEntity update(TEntity entity);

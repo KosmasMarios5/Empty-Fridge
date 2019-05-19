@@ -3,19 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empty_fridge.Entities;
+package empty_fridge.Pages;
 
 import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Recipe;
 import empty_fridge.Entities.Filter;
 import empty_fridge.Entities.User;
 import empty_fridge.Entities.Favorite;
+import empty_fridge.Entities.Favorite;
+import empty_fridge.Entities.Filter;
+import empty_fridge.Entities.Ingredient;
+import empty_fridge.Entities.Recipe;
+import empty_fridge.Entities.User;
 /**
  *
  * @author Alexandros
  */
-public class SearchPage { //extends Page
-    //IngredientSelectMenu menu; 
+public class SearchPage extends Page{
+    
     User user;
     Ingredient[] ingredients;
     Filter[] filters;
