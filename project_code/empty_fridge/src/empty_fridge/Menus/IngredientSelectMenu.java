@@ -59,7 +59,7 @@ public class IngredientSelectMenu extends Menu {
        ArrayList<Ingredient> ingredientsToReturn =  new ArrayList<Ingredient>();
        
        for (Ingredient ingredient : ingredients) {
-           if(ingredient.getTtile().contains(word)){
+           if(ingredient.getTitle().contains(word)){
                ingredientsToReturn.add(ingredient);
            }
        }

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85125c18-d6a5-4713-bd96-5d7801b4b78e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Ingredient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/VocabularyTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/VocabularyTerm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/IngredientSelectMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/IngredientSelectMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/VocabularyTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/VocabularyTerm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/IngredientSelectMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/IngredientSelectMenu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -163,11 +166,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558798528885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ingredients menu &amp; selections">
+      <created>1558798799065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558798799065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3199000" />
+    <option name="totallyTimeSpent" value="3443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="709" height="1047" extended-state="0" />
