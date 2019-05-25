@@ -9,12 +9,19 @@ import empty_fridge.Entities.*;
 import empty_fridge.Pages.*;
 /**
  *
- * @author Kostis
+ * @author Petros
  */
 public class MainMenuUI extends Menu{
     
-    public void selectOption(){
-        
+    public void selectOption(String option){
+
+        if ( "User".equals(option)){
+            display();//UserPage
+        }else if( "Role".equals(option)){
+            display();//RolePage
+        }else if( "Notification".equals(option)){
+            display();//NotificationPage
+        }       
     }
     
 }

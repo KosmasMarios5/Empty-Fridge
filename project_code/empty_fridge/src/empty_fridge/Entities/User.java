@@ -23,9 +23,9 @@ public class User extends Entity {
     Role role;
     ShoppingList shoppingList;
     ArrayList<Favorite> favorites = new ArrayList<Favorite>();
-    boolean accessNotification;
+
     int cookLevel;
-    
+    String notification;
     boolean isActive;
     
     public User(int id, String username,String email, Role role){
@@ -63,7 +63,8 @@ public class User extends Entity {
     }
     
     
-    public void validateLogin(String username, String password){
+    public boolean validateLogin(String username, String password){
+        return username.equals(this.username) && password.equals(this.password);
     }
     
     public String getUserName(){
@@ -76,8 +77,12 @@ public class User extends Entity {
     }
     
     
-    public void setRole(Role role){
-        this.role = role;
+    public void setRole(Role role)throws Exception{
+        if(this.checkRole()){
+            this.role = role;
+            this.save();
+        }
+        throw new Exception("cannot set role");
     }
     
     public Role getRole(){
@@ -92,8 +97,16 @@ public class User extends Entity {
         
     }
     
-    public void setNotification(){
-        
+    public String getNotification(){
+        return this.notification;
+    }
+    
+    public void setNotification(String notification)throws Exception{
+        if(this.checkNotification()){
+            this.notification = notification;
+            this.save();
+        }
+        throw new Exception("cannot set notification");
     }
     
     public void validate(){
@@ -104,13 +117,14 @@ public class User extends Entity {
         return true;
     }
     
-    public void checkRole(){
-        
+    public boolean checkRole(){
+        return true;
     }
     
-    public void checkNotification(){
-        
+    public boolean checkNotification(){
+        return true;
     }
+    
     public void saveSession(Ingredient[] ingr, Filter[] filt, User usr, int iduser){
         //Σώζει τις επιλογές της τελευταίας αναζήτησης που έκανε ο χρήστης.
     }

@@ -13,8 +13,12 @@ import empty_fridge.Entities.*;
 public class RolePage extends Page{
 
     
-    public void addUserRole(Role role){
+    public void addUserRole(Role role) throws Exception{
         this.currentUser.setRole(role);
         this.currentUser.save();
+    }
+    
+    public Role getRole(){
+        return this.currentUser.getRole();
     }
 }
