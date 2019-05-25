@@ -14,4 +14,7 @@ public class VocabularyTerm extends Entity {
     int weight;
     VocabularyTerm parent;
     
+    public String getTtile(){
+        return this.title;
+    }
 }

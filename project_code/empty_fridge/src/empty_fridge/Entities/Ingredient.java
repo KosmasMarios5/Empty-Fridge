@@ -5,12 +5,18 @@
  */
 package empty_fridge.Entities;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author kosma
  */
 public class Ingredient extends VocabularyTerm {
     int quantity;
-    String[] categories;
+    ArrayList<String> categories = new ArrayList<String>();
     
+    public ArrayList<String> getCategories(){
+        return this.categories;
+    }
+
 }

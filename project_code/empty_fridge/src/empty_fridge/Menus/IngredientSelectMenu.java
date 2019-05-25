@@ -53,6 +53,19 @@ public class IngredientSelectMenu extends Menu {
        //display ingredientsToReturn
    }
   
+  
+    public void typeIngredient(String word){
+       ArrayList<Ingredient> ingredients =  this.ingredientRepository.loadMultiple();
+       ArrayList<Ingredient> ingredientsToReturn =  new ArrayList<Ingredient>();
+       
+       for (Ingredient ingredient : ingredients) {
+           if(ingredient.getTtile().contains(word)){
+               ingredientsToReturn.add(ingredient);
+           }
+       }
+       //display ingredientsToReturn
+   }
+  
    
      
    public void selectIngredient(Ingredient ingredient){
