@@ -44,7 +44,6 @@ public class IngredientSelectMenu extends Menu {
        ArrayList<Ingredient> ingredientsToReturn =  new ArrayList<Ingredient>();
        
        for (Ingredient ingredient : ingredients) {
-           
            ArrayList<String> categories = ingredient.getCategories();
            if(categories.contains(categoryName)){
                ingredientsToReturn.add(ingredient);
@@ -60,8 +59,8 @@ public class IngredientSelectMenu extends Menu {
        this.selectedIngredients.add(ingredient);
    }
    
-   public void selectionDone(){
-       
+   public ArrayList<Ingredient> getSelectedIngredients(){
+       return this.selectedIngredients;
    }
    
 }
