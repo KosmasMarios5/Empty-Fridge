@@ -13,4 +13,20 @@ public class Comment extends Entity{
     String text;
     Image image;
     Recipe recipe;
+    
+    public  Comment(){
+        
+    }
+    
+    public void saveComment(String text){
+        this.text = text;
+    }
+    
+    public void savePhoto(Image image){
+        this.image = image;
+    }
+    
+    public void save(){
+        
+    }
 }
