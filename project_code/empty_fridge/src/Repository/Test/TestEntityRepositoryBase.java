@@ -31,8 +31,13 @@ public abstract class TestEntityRepositoryBase<TEntity extends Entity> implement
     }
     
     public TEntity create(TEntity entity) {
-        this.entities.add(entity);
-        return entity;
+        try{
+            //try to save
+            this.entities.add(entity);
+            return entity;    
+        }catch(Exception exeption){
+            return null;
+        }
     }
     
     public TEntity update(TEntity entity) {

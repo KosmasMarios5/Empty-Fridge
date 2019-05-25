@@ -5,7 +5,6 @@
  */
 package empty_fridge.Entities;
 
-import empty_fridge.Entities.Ingredient;
 import java.util.ArrayList;
 
 /**

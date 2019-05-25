@@ -10,6 +10,7 @@ package empty_fridge.Entities;
  * @author kosma
  */
 public abstract class Entity {
+    
     protected int id;
     
     public int getId(){
