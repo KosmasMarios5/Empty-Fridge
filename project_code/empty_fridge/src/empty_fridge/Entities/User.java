@@ -26,6 +26,8 @@ public class User extends Entity {
     boolean accessNotification;
     int cookLevel;
     
+    boolean isActive;
+    
     public User(int id, String username,String email, Role role){
         this.id = id;
         this.username = username;
@@ -33,14 +35,33 @@ public class User extends Entity {
         this.role = role;
     }
     
+    
+    public User(String username,String password, String email){
+        this.id = id;
+        this.username = username;
+        this.email = email;
+        this.role = role;
+    }
+    
+    
     public boolean isLoggedIn(){
         //kwdikas elegxou
         return true; 
     }
 
-    public void setUserData(String userData){
-        this.userData = userData;
+    public void setUserData(String userData) throws Exception{
+        if(this.checkUserData()){
+            this.userData = userData;
+            this.save();
+        }
+        throw new Exception("cannot set user data");
     }
+    
+    
+    public String getUserData(){
+        return this.userData;
+    }
+    
     
     public void validateLogin(String username, String password){
     }
@@ -52,6 +73,11 @@ public class User extends Entity {
        
     public String getEmail(){
         return this.email;
+    }
+    
+    
+    public void setRole(Role role){
+        this.role = role;
     }
     
     public Role getRole(){
@@ -70,16 +96,12 @@ public class User extends Entity {
         
     }
     
-    public void setRole(Role role){
-        this.role= role;
-    }
-    
     public void validate(){
         
     }
     
-    public void checkUserData(){
-        
+    public boolean checkUserData(){
+        return true;
     }
     
     public void checkRole(){
@@ -92,4 +114,10 @@ public class User extends Entity {
     public void saveSession(Ingredient[] ingr, Filter[] filt, User usr, int iduser){
         //Σώζει τις επιλογές της τελευταίας αναζήτησης που έκανε ο χρήστης.
     }
+    
+    
+    public void activateAccount(){
+        this.isActive = true;
+    }
+    
 }

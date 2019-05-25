@@ -11,9 +11,15 @@ package empty_fridge.Pages;
  */
 public class UserEmailPage extends Page{
     
+    public void sendConfirmationForm(){
+        String message = "Your account was created successfully.";
+        this.display();
+    }
     
     public void acceptConfirmationForm(){
-        
+        this.currentUser.activateAccount();
+        this.currentUser.save();
+        this.display();
     }
 
 }

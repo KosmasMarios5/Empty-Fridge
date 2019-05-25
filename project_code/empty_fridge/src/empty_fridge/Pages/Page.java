@@ -20,9 +20,10 @@ public class Page {
     }
     
     
-    public void display(String pageName){
+    public void redirect(String pageName){
         //redirect to pageName
     }
+    
     
     
     public void error(String message){
