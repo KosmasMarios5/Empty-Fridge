@@ -13,11 +13,8 @@ import empty_fridge.Entities.User;
  */
 public class NotificationPage extends Page {
     
-    public void notification(){
-        
-    }
     
-    public User getNotification(){
-        return null;
+    public String getNotification(){
+        return this.currentUser.getNotification();
     }
 }

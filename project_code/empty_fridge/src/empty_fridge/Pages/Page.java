@@ -6,6 +6,7 @@
 package empty_fridge.Pages;
 
 import empty_fridge.Entities.User;
+import empty_fridge.Menus.IngredientSelectMenu;
 
 /**
  *
@@ -16,5 +17,25 @@ public class Page {
     
     
     public void display(){
-}
+        //display this page
+    }
+    
+    
+    public void redirect(String pageName){
+        //redirect to pageName
+        IngredientSelectMenu menu = new IngredientSelectMenu();
+        menu.display();
+    }
+    
+    
+    
+    public void error(String message){
+        throw new RuntimeException(message);
+    }
+    
+    
+    public void SelectIngredients(){
+        
+    }
+    
 }

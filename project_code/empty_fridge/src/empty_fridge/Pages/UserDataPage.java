@@ -6,6 +6,8 @@
 package empty_fridge.Pages;
 
 import empty_fridge.Entities.User;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -13,10 +15,15 @@ import empty_fridge.Entities.User;
  */
 public class UserDataPage extends Page{
     
-    public void addUserData(){
-        
+    public void addUserData(String userData){
+        try {
+            this.currentUser.setUserData(userData);
+        } catch (Exception ex) {
+            this.error(ex.getMessage());
+        }
     }
-    public User getUserData(){
-        return null;
+    
+    public String getUserData(){
+        return this.currentUser.getUserData();
     }
 }

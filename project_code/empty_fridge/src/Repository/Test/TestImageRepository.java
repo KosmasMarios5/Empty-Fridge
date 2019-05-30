@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Repository;
+package Repository.Test;
+
+import empty_fridge.Entities.Image;
 
 /**
  *
  * @author kosma
  */
-public interface IEntityRepository<TEntity> {
+public class TestImageRepository extends TestEntityRepositoryBase<Image>{
 
-    TEntity load(int id);
-    TEntity create(TEntity entity);
-    TEntity update(TEntity entity);
-    boolean delete(TEntity entity);
+    public TestImageRepository(){
+        //TODO: add dummy ingredients
+    }
 }

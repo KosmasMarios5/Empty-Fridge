@@ -9,10 +9,12 @@ package empty_fridge.Entities;
  *
  * @author kosma
  */
-public class VocabularyTerm {
-    int id;
+public class VocabularyTerm extends Entity {
     String title;
     int weight;
     VocabularyTerm parent;
     
+    public String getTitle(){
+        return this.title;
+    }
 }

@@ -1,13 +1,9 @@
 
 package empty_fridge.Entities;
 
-/**
- *
- * @author kosma
- */
-import empty_fridge.Entities.CookingTool;
-import empty_fridge.Entities.Ingredient;
 import java.util.ArrayList;
+
+
 
 public class Recipe extends Entity{
     String title;
@@ -17,7 +13,7 @@ public class Recipe extends Entity{
     String[] categories;
     User author;
     String description;
-    int rating;
+    int rating, totalRatings;
     String instructions;
     
     public Recipe (){
@@ -43,11 +39,19 @@ public class Recipe extends Entity{
         return this.instructions;
     }
     
-    public Ingredient[] getIngredients(int rid){
+    public ArrayList<Ingredient> getIngredients(int rid){
         return null;
     }
     
     public void getTools(int rid){
     }
+    
+    public int saveRating(int rating){
+        
+        //todo
+    
+       return this.rating;
+    }
+    
     
 }
