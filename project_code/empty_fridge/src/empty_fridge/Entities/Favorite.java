@@ -11,11 +11,15 @@ import java.util.ArrayList;
  *
  * @author petros
  */
-public class Favorite {
+public class Favorite extends Entity {
     User author;
     Favorite item;
     ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
     ArrayList<Recipe> recipes = new ArrayList<Recipe>();
+    
+    public Favorite(){
+        
+    }
     
     public void setFavorite(Favorite item){
         this.item = item;

@@ -138,4 +138,8 @@ public class User extends Entity {
         return this.shoppingList;
     }
     
+    
+    public ArrayList<Favorite> getUserFavorites(){
+        return this.favorites;
+    }
 }
