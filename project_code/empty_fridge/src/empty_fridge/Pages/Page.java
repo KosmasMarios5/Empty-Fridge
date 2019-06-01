@@ -23,8 +23,6 @@ public class Page {
     
     public void redirect(String pageName){
         //redirect to pageName
-        IngredientSelectMenu menu = new IngredientSelectMenu();
-        menu.display();
     }
     
     
@@ -35,7 +33,8 @@ public class Page {
     
     
     public void SelectIngredients(){
-        
+        IngredientSelectMenu menu = new IngredientSelectMenu();
+        menu.display();
     }
     
 }

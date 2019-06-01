@@ -15,12 +15,20 @@ import empty_fridge.Entities.Filter;
 import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Recipe;
 import empty_fridge.Entities.User;
+import java.util.ArrayList;
 /**
  *
  * @author Alexandros
  */
 public class SearchPage extends Page{
+
     
+    public SearchPage(){
+        
+    }
+    public SearchPage(ArrayList<Ingredient> ingredients){
+        this();
+    }
 //    Ingredient[] ingredients;
 //    Filter[] filters;
 //    Recipe[] recipes;
@@ -55,5 +63,5 @@ public class SearchPage extends Page{
     
     public void viewSortingOptions(){}
     
-    public void refresh(){}
+
 }

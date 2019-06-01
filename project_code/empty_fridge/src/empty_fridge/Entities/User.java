@@ -134,4 +134,8 @@ public class User extends Entity {
         this.isActive = true;
     }
     
+    public ShoppingList getShoppingList(){
+        return this.shoppingList;
+    }
+    
 }
