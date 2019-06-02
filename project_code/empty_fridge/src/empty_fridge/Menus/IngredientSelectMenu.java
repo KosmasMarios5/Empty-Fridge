@@ -10,6 +10,7 @@ import Repository.Test.TestIngredientRepository;
 import empty_fridge.Pages.*;
 import empty_fridge.Entities.*;
 import java.util.ArrayList;
+
 /**
  *
  * @author Kostis
@@ -35,8 +36,7 @@ public class IngredientSelectMenu extends Menu {
                    categories.add(category);
            }
        }
-       
-       //display categories
+       this.display(categories);
    }
    
    public void selectCategory(String categoryName){
@@ -49,8 +49,7 @@ public class IngredientSelectMenu extends Menu {
                ingredientsToReturn.add(ingredient);
            }
        }
-       
-       //display ingredientsToReturn
+       this.display(ingredientsToReturn); 
    }
   
   
@@ -63,7 +62,7 @@ public class IngredientSelectMenu extends Menu {
                ingredientsToReturn.add(ingredient);
            }
        }
-       //display ingredientsToReturn
+       this.display(ingredientsToReturn);
    }
   
    

@@ -5,8 +5,10 @@
  */
 package empty_fridge.Pages;
 
+import empty_fridge.Entities.Recipe;
 import empty_fridge.Entities.User;
 import empty_fridge.Menus.IngredientSelectMenu;
+import java.util.ArrayList;
 
 /**
  *
@@ -18,6 +20,12 @@ public class Page {
     
     public void display(){
         //display this page
+    }
+    
+    public void display(ArrayList data) {
+    }
+    
+    public void display(String text) {
     }
     
     
