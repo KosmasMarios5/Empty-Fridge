@@ -43,6 +43,11 @@ public class User extends Entity {
         this.role = role;
     }
     
+    public void changeUserData(String username,String password, String email){
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }    
     
     public boolean isLoggedIn(){
         //kwdikas elegxou
