@@ -17,18 +17,22 @@ import java.util.ArrayList;
 
 public class MainMenuUI extends Menu{
     protected IEntityRepository<User> UserRepository;
- 
+    
     public void selectOption(String option){
         ArrayList<User> user =  this.UserRepository.loadMultiple();
+        
         if ( "Profile".equals(option)){
+            UserDataPage userDataPage = new UserDataPage(); 
             this.display(user);
-            //display userPage
+            userDataPage.display();
         }else if( "Role".equals(option)){
+            RolePage rolePage = new RolePage();
             this.display(user);
-            //display rolePage
+            rolePage.display(); 
         }else if( "Notification".equals(option)){
+            NotificationPage notificationPage = new NotificationPage();
             this.display(user);
-            //display notification page
+            notificationPage.display();
         }       
     }
     
