@@ -7,6 +7,7 @@ package empty_fridge.Menus;
 
 import empty_fridge.Entities.*;
 import empty_fridge.Pages.*;
+import java.util.ArrayList;
 /**
  *
  * @author Kostis
@@ -18,6 +19,12 @@ public class Menu {
         
     }
     
+    public void display(ArrayList items){
+        
+    }
+    public void hide(){
+        
+    }
     
     
 }

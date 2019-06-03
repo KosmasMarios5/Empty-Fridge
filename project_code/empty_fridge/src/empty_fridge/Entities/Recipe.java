@@ -35,22 +35,27 @@ public class Recipe extends Entity{
         return this.id;
     }
     
-    public String getInstructions(int rid){
+    public String getInstructions(){
         return this.instructions;
     }
     
-    public ArrayList<Ingredient> getIngredients(int rid){
-        return null;
+    public ArrayList<Ingredient> getIngredients(){
+        return this.ingredients;
     }
     
-    public void getTools(int rid){
+    public ArrayList<CookingTool> getTools(){
+        return this.cookingTools;
+    }
+    
+    public int getRating(){
+        return this.rating;
     }
     
     public int saveRating(int rating){
         
         //todo
     
-       return this.rating;
+       return this.getRating();
     }
     
     

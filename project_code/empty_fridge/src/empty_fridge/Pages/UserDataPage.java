@@ -23,6 +23,10 @@ public class UserDataPage extends Page{
         }
     }
     
+    public void changeUserData(String username,String password, String email){
+        this.currentUser.changeUserData(username, password, email);
+    }
+    
     public String getUserData(){
         return this.currentUser.getUserData();
     }

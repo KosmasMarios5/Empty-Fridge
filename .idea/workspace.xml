@@ -2,17 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85125c18-d6a5-4713-bd96-5d7801b4b78e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Ingredient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/VocabularyTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/VocabularyTerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/Repository/Test/TestEntityRepositoryBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/Repository/Test/TestEntityRepositoryBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Favorite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/ShoppingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/ShoppingList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Web.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/IngredientSelectMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/IngredientSelectMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/VocabularyTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/VocabularyTerm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/MainMenuUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/MainMenuUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/CreateProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/CreateProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RecipePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RecipePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RecipeRatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RecipeRatePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/ResultsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/ResultsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RolePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/RolePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/UserDataPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/UserDataPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/IngredientSelectMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/IngredientSelectMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RecipePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RecipePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/SearchPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="project_code/empty_fridge/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +62,79 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Program.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/CreateProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state>
               <folding>
-                <element signature="e#0#1366#0" expanded="true" />
+                <element signature="e#0#946#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/NotificationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/IEntityRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RecipeRatePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +149,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/Page.java" />
       </list>
     </option>
   </component>
@@ -65,9 +159,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="709" />
+    <option name="width" value="562" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -75,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,6 +191,13 @@
               <item name="Empty-Fridge" type="b2602c69:ProjectViewProjectNode" />
               <item name="empty_fridge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="empty_fridge" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Empty-Fridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empty_fridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -112,12 +211,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_code/empty_fridge" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_code/empty_fridge/build" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -151,6 +253,9 @@
       <option name="presentableId" value="Default" />
       <updated>1558287056807</updated>
       <workItem from="1558287059142" duration="640000" />
+      <workItem from="1558856710894" duration="323000" />
+      <workItem from="1559373409119" duration="2267000" />
+      <workItem from="1559459185178" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="user pages">
       <created>1558796273974</created>
@@ -173,52 +278,139 @@
       <option name="project" value="LOCAL" />
       <updated>1558798799065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ingredients menu &amp; selections">
+      <created>1558799043416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558799043416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ingredients menu &amp; selections">
+      <created>1558799094805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558799094805</updated>
+    </task>
+    <task id="LOCAL-00006" summary="shopping list">
+      <created>1559399442046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559399442046</updated>
+    </task>
+    <task id="LOCAL-00007" summary="filters at results page">
+      <created>1559402117806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559402117806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3443000" />
+    <option name="totallyTimeSpent" value="7115000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="709" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44530046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20468998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.35995623" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.87432283" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21115974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="user pages" />
     <MESSAGE value="ingredients menu &amp; selections" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingredients menu &amp; selections" />
+    <MESSAGE value="shopping list" />
+    <MESSAGE value="filters at results page" />
+    <option name="LAST_COMMIT_MESSAGE" value="filters at results page" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project_code/nbproject/project.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -235,9 +427,226 @@
     <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding>
             <element signature="e#0#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Comment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/Favorite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/CreateProfilePage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <folding>
+            <element signature="e#0#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/LoginPage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Pages/NotificationPage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Menus/MainMenuUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RolePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/nbproject/project.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/Test/TestUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/Test/TestRecipeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/Test/TestIngredientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/Test/TestImageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/IngredientSelectMenu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#2463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Entities/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#2570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/UserEmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/empty_fridge/Menus/MainMenuUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RecipePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/build/classes/Repository/Test/TestCommentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/CreateProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/NotificationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/Repository/IEntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/RecipeRatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_code/empty_fridge/src/empty_fridge/Pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

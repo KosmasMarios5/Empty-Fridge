@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empty_fridge.Entities;
+package Repository.Test;
+
+import empty_fridge.Entities.Filter;
 
 /**
  *
  * @author kosma
  */
-public class Image extends Entity{
-    String url;
-    String fileName;
-    String mimeType;
+public class TestFilterRepository extends TestEntityRepositoryBase<Filter>{
+
+    public TestFilterRepository(){
+        //TODO: add dummy filters
+    }
 }

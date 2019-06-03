@@ -5,23 +5,20 @@
  */
 package empty_fridge.Entities;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Alexandros
  */
-public class Filter {
-    String[] sortableFilters = {" "};
-    String[] filters = {" "};
+public class Filter extends Entity {
+    ArrayList<String> sortableFilters =  new ArrayList<String>();
+    ArrayList<String> filters = new ArrayList<String>();
     
-    public Filter(){
-        
-    }
-    public String[] getFilters(){
-        
+    public ArrayList<String> getFilters(){
         return this.filters;
     }
-    public String[] getSortableFilters(){
-        
+    public ArrayList<String> getSortableFilters(){
         return this.sortableFilters;
     }
 }

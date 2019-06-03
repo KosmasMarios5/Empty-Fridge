@@ -7,55 +7,29 @@ package empty_fridge.Entities;
 import empty_fridge.Entities.Ingredient;
 import empty_fridge.Entities.Filter;
 import java.util.ArrayList;
+
 /*
  * @author Alexandros
  */
 public class Session {
     
-    int userid;
-    ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
-    ArrayList<Filter> filters = new ArrayList<Filter>();
-    
-    ArrayList<Ingredient> oldIngredients = new ArrayList<Ingredient>();
-    ArrayList<Filter> oldFilters = new ArrayList<Filter>();
+    User user;
+    ArrayList<SavedSearch> savedSearches = new ArrayList<SavedSearch>();
     
     public Session(){
         
     }
     
-    public void save(Filter Sfilters){
-        /* Save Filters (Allagh Sequence Filters) 
-        *  me eisodo filters
-        */
-        
+    public SavedSearch getSavedSession(Integer index){
+        if(index != null){
+            index = savedSearches.size();
+        }
+        return savedSearches.get(index);
     }
     
-    public void save(Ingredient Singredients){
-        /* Save Ingredients Allagh Sequence Filters)
-        *  me eisodo ingredients
-        */
-        
+    
+    public void save(ArrayList<Ingredient> ingredients, Filter filters){
+        this.savedSearches.add(new SavedSearch(ingredients,filters));
     }
     
-    public ArrayList<Ingredient> getSavedSession(String ylika){
-        /* Me to user id epistrefei ta apothikeumena ingredients
-        *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
-        */
-        return null;
-    }
-    
-    public ArrayList<Filter> getSavedSession(int filtra){
-        /* Me to user id epistrefei ta apothikeumena filters
-        *  pou eixe epilexei kai swsei o xrhsths prohgoumenws
-        */
-        return null;
-    }
-    
-    public ArrayList<Ingredient> getIngredients(){
-        return null;
-    }
-    
-    public ArrayList<Filter> getFilters(){
-        return null;
-    }
 }

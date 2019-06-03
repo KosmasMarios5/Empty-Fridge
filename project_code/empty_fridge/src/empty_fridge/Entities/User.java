@@ -15,7 +15,6 @@ import java.util.ArrayList;
 
 
 public class User extends Entity {
-    
     String username;
     String password;
     String email;
@@ -27,6 +26,7 @@ public class User extends Entity {
     int cookLevel;
     String notification;
     boolean isActive;
+    Session sessionStorage;
     
     public User(int id, String username,String email, Role role){
         this.id = id;
@@ -43,6 +43,11 @@ public class User extends Entity {
         this.role = role;
     }
     
+    public void changeUserData(String username,String password, String email){
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }    
     
     public boolean isLoggedIn(){
         //kwdikas elegxou
@@ -125,13 +130,25 @@ public class User extends Entity {
         return true;
     }
     
-    public void saveSession(Ingredient[] ingr, Filter[] filt, User usr, int iduser){
+    public void setSessionStorage(Ingredient[] ingr, Filter[] filt, User usr, int iduser){
         //Σώζει τις επιλογές της τελευταίας αναζήτησης που έκανε ο χρήστης.
     }
     
+    
+    public Session getSessionStorage(){
+        return this.sessionStorage;
+    }
     
     public void activateAccount(){
         this.isActive = true;
     }
     
+    public ShoppingList getShoppingList(){
+        return this.shoppingList;
+    }
+    
+    
+    public ArrayList<Favorite> getUserFavorites(){
+        return this.favorites;
+    }
 }
