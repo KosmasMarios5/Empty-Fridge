@@ -7,20 +7,28 @@ package empty_fridge.Menus;
 
 import empty_fridge.Entities.*;
 import empty_fridge.Pages.*;
+import Repository.IEntityRepository;
+import Repository.Test.TestUserRepository;
+import java.util.ArrayList;
 /**
  *
  * @author Petros
  */
-public class MainMenuUI extends Menu{
-    
-    public void selectOption(String option){
 
-        if ( "User".equals(option)){
-            display();//UserPage
+public class MainMenuUI extends Menu{
+    protected IEntityRepository<User> UserRepository;
+ 
+    public void selectOption(String option){
+        ArrayList<User> user =  this.UserRepository.loadMultiple();
+        if ( "Profile".equals(option)){
+            this.display(user);
+            //display userPage
         }else if( "Role".equals(option)){
-            display();//RolePage
+            this.display(user);
+            //display rolePage
         }else if( "Notification".equals(option)){
-            display();//NotificationPage
+            this.display(user);
+            //display notification page
         }       
     }
     
